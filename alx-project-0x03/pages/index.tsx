@@ -7,7 +7,7 @@ interface PageRouteProps {
 }
 
 export default function Home() {
-  const router = useRouter()
+  const router = useRouter();
 
   // Imperative routing function
   const routeToNextPage = ({ pageRoute }: PageRouteProps) => {
